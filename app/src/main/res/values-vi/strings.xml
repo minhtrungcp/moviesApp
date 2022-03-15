@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="map_screen">Bản đồ rạp phim</string>
+    <string name="movie_list">Danh sách phim</string>
+    <string name="movie_playing">Đang phát</string>
+    <string name="movie_top_rating">Xếp hạng cao</string>
+    <string name="advertisment">Quảng cáo</string>
+    <string name="cast_and_crews">Diễn viên và đoàn làm phim</string>
+    <string name="location_permission_error">Chúng tôi không thể lấy chính xác vị trí của bạn để hiển thị</string>
+    <string name="retry">Thử lại</string>
+    <string name="network_error"> Máy chủ không ổn định, vui lòng kiểm tra lại </string>
+    <string name="unknown_error"> Thiết bị đã gặp sự cố chưa rõ, vui lòng thử lại sau </string>
+</resources>

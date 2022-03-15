@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="map_screen">Map movies screen</string>
+    <string name="movie_list">Movie List</string>
+    <string name="movie_playing">Now Playing</string>
+    <string name="movie_top_rating">Top Rated</string>
+    <string name="advertisment">Advertisement</string>
+    <string name="cast_and_crews">Cast and Crews</string>
+    <string name="location_permission_error">We can not get exactly your location for display</string>
+    <string name="retry">Retry</string>
+    <string name="network_error">The server is not stable, please check again</string>
+    <string name="unknown_error">The device has a known problem, please try again later</string>
+</resources>
