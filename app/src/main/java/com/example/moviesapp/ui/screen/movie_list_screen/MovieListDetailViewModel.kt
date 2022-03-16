@@ -35,7 +35,6 @@ class MovieListDetailViewModel @Inject constructor(
     private val _imageConfig = mutableStateOf<ImageConfig?>(null)
     val imageConfig: State<ImageConfig?> = _imageConfig
 
-
     private val numberDisplayAdvertisement: Int = 3
 
     private var total_pages: Int = 0
@@ -57,8 +56,9 @@ class MovieListDetailViewModel @Inject constructor(
 
     private fun getImageConfig() {
         viewModelScope.launch {
-            val imageConfigEntity = imageConfigurationDAO.getAllImageConfigs().first()
-            _imageConfig.value = imageConfigEntity.toImageConfig()
+            imageConfigurationDAO.getAllImageConfigs().first().let {
+                _imageConfig.value = it.toImageConfig()
+            }
         }
     }
 

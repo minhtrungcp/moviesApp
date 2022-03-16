@@ -20,7 +20,7 @@ object NetworkModule {
     @Singleton
     fun provideMovieApi(): MovieApiService {
         val logging = HttpLoggingInterceptor()
-        logging.level = HttpLoggingInterceptor.Level.BASIC
+        logging.level = HttpLoggingInterceptor.Level.BODY
         val client = OkHttpClient.Builder().addInterceptor(logging)
 
         return Retrofit.Builder()
