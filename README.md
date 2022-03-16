@@ -2,7 +2,7 @@
 
 ## Requirements
  * Device android OS > 6.0 and support google servies
- * Clean and build project before run.
+ * Clean and rebuild project before run.
 
 ## Features:
 * Load map with current location, detect location permission and gps ennable and add marker when move camera.
